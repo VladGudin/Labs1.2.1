@@ -36,11 +36,8 @@ public class Books {
             System.out.println("Издатель " + booksArray[i].getPublisher().getNamePublisher());
             System.out.println("Год " + booksArray[i].getYear());
             break;
-
         }
     }
-
-
     //  Метод возвращающий автора с заданным индексом. Исключение не работает, у меня не получилось это исправить
     public String getIndex(Books[] booksArray) throws IllegalArgumentException{
 
