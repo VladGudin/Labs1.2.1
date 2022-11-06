@@ -41,7 +41,7 @@ public class Books {
     }
 
 
-    //  Метод возвращающий автора с заданным индексом
+    //  Метод возвращающий автора с заданным индексом. Исключение не работает, у меня не получилось это исправить
     public String getIndex(Books[] booksArray) throws IllegalArgumentException{
 
         if (booksArray.length<0) throw new IllegalArgumentException("Значение меньше допустимого");
